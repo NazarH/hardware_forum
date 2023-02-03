@@ -1,0 +1,217 @@
+.form__topic{
+	margin-top: 25px;
+	
+
+	font-size: 14px;
+	font-weight: bold;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form__topic>a{
+	color: black;
+}
+
+.form__topic>a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.form__atrb{
+	display: flex;
+	flex-direction: column;
+
+	padding: 15px;
+	border: 1px solid #888888;
+	border-bottom: none;
+	background: #E5E5E5;
+
+	font-weight: bold;
+	font-size: 13px;
+
+	
+}
+
+.form__atrb>div:first-child{
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.form__atrb>div:nth-child(2){
+	display: flex;
+	align-items: center;
+	margin-bottom: 14px;
+
+	width: 100%;
+}
+
+.form__atrb>div:nth-child(2)>div:first-child{
+	width: 150px;
+}
+
+.form__atrb>div:nth-child(2)>div:last-child{
+	width: 100%;
+}
+
+.form__atrb>div:nth-child(2)>div:last-child>input{
+	border: 1px solid black;
+	height: 20px;
+	width: 50%;
+
+	padding-left: 10px;
+}
+
+.form__atrb>div:nth-child(3){
+	display: flex;
+	margin-bottom: 14px;
+}
+
+.form__atrb>div:nth-child(4){
+	width: 100%;
+}
+
+.form__atrb>div:nth-child(4)>textarea{
+	width: 80%;
+	height: 276px;
+
+	resize: none;
+	padding: 10px;
+
+	border: 1px solid black;
+
+	white-space: pre-wrap;
+}
+
+.form__btns{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 14px;
+	background: #CCCCCC;
+	border: 1px solid #888888;
+	border-top: 2px solid white;
+}
+
+.form__btns>button{
+	color: black;
+	border: 1px solid black;
+	padding: 5px;
+	background: white;
+	font-weight: bold;
+
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* bts */
+
+.form__text-btn{
+	font-size: 19px;
+	padding: 3px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border-radius: 3px;
+	font-weight: bold;
+	color: #8F8F8F;
+	background: #ECECEC;
+	border: 1px solid #AAAAAA;
+
+	cursor: pointer;
+
+	font-family: "Times New Roman", Times, serif; 
+
+	width: 28.68px;
+	height: 27px;
+	text-align: center;
+
+	margin-right: 5px;
+}
+
+.form__text-btn:hover{
+	color: black;
+	border: 1px solid black;
+}
+
+.tilted{
+	font-style: italic;
+}
+
+.emphatic{
+	text-decoration: underline;
+}
+
+.list{
+	width: 42px;
+}
+
+.list-left{
+	margin-left: 10px;
+}
+
+.form__emot{
+	display: flex;
+	margin-top: 7px;
+	margin-bottom: 7px;
+
+	font-size: 17px;
+}
+
+.form__emot>div{
+	padding: 5px;
+	cursor: pointer;
+	user-select: none; 
+}
+
+.form__emot>div:hover{
+	background: #CCCCCC;
+}
+
+/* pre */
+
+#preTitleField{
+	display: none;
+}
+
+#preTextArea{
+	display: none;
+}
+
+.preSendBtn{
+	cursor: pointer;
+
+	color: black;
+	border: 1px solid black;
+	padding: 5px;
+	background: white;
+	font-weight: bold;
+
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.temp-class{
+	margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    border-bottom: none !important;
+}
+
+.message-tittle{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.message-form>div:last-child{
+	height: 30px;
+	margin-right: -5px;
+}
+
+/* */
+
+.temp-second>div:first-child{
+	width: 60px !important;
+}
+

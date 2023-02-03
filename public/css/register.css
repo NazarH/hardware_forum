@@ -1,0 +1,55 @@
+.reg{
+	padding-bottom: 0px;
+}
+
+.form-block{
+	display: flex;
+	margin-bottom: 14px;
+}
+
+.form-block>div{
+	font-size: 13px;
+	font-weight: bold;
+	width: 150px;
+}
+
+.form-block>input{
+	border: 1px solid black;
+	width: 20%;
+	padding-left: 5px;
+}
+
+.form-block>select{
+	border: 1px solid black;
+}
+
+.form-block>textarea{
+	width: 70%;
+	border: 1px solid black;
+	resize: none;
+	padding: 5px;
+}
+
+.first-block{
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+}
+
+.last-block{
+	background: #E5E5E5;
+	padding: 14px;
+	border: 1px solid #888888;
+	border-top: none;
+
+	display: flex;
+	justify-content: center;
+}
+
+.last-block>button{
+	color: black;
+	border: 1px solid black;
+	padding: 5px;
+	background: white;
+	font-weight: bold;
+}

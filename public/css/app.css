@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "ms_sans_serif";
+    src: url("../fonts/w95fa.woff") format("woff"),
+         url("../fonts/w95fa.woff2") format("woff2"),
+         url("../fonts/W95FA.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    font-family: sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    font-family: sans-serif;
+
+    height: auto;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    min-width: 1170px;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a{
+    color: black;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+pre{
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;
+
+    text-align: justify;
+}
+
+/* */
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    min-width: 1110px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+}
+
+/* */
+
+table {
+    width: 100%;
+    border-spacing: 0 0px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #888888;
+}
+
+th {
+    padding: 10px 20px;
+    background: #E5E5E5;
+    color: black;
+    font-size: 0.9em;
+}
+
+th:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+
+    background: #F6F6F6;
+}
+
+td:first-child {
+    border-left: 1px solid white;
+
+}
+
+td:nth-child(2){
+    text-align: left;
+}

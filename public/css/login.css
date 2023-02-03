@@ -1,0 +1,100 @@
+.login-form{
+	display: flex;
+	flex-direction: column;
+	
+	padding: 25px;
+	margin: 0 auto;
+	margin-top: 25px;
+
+	border: 1px solid #888888;
+	border-bottom: none;
+
+	background: #F6F6F6;
+}
+
+.login-top{
+	font-weight: bold;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.login-title{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 7px;
+	margin-top: 7px;
+
+	width: 160px;
+}
+
+.login-block{
+	display: flex;
+	align-items: center;
+}
+
+.login-block>input{
+	border: 1px solid black;
+	width: 20%;
+	padding-left: 5px;
+}
+
+.login-btn{
+	margin-top: 14px;
+	margin-left: 160px;
+}
+
+.login-btn>button{
+	color: black;
+	border: 1px solid black;
+	padding: 5px;
+	background: white;
+}
+
+/* register block */
+
+.register-block{
+	display: flex;
+	flex-direction: column;
+	
+	padding: 25px;
+
+	border: 1px solid #888888;
+	border-top: none;
+
+	background: #E5E5E5;
+}
+
+.register-top{
+	font-weight: bold;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.register-rules>div:first-child{
+	margin-bottom: 14px;
+	font-size: 13px;
+	text-align: justify
+}
+
+.register-rules>div:last-child{
+	font-size: 13px;
+	padding-bottom: 14px;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+.register-rules>div:last-child>a{
+	color: black;
+}
+
+.register-btn{
+	margin-top: 25px;
+}
+
+.register-btn>a{
+	color: black;
+	border: 1px solid black;
+	padding: 5px;
+	background: white;
+}

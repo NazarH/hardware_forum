@@ -1,0 +1,85 @@
+.mailbox__top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.mailbox-title{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.mailbox__bottom{
+	display: flex;
+}
+
+.mailbox__bottom>div:first-child{
+	border-top: 1px solid #B2B2B2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #B2B2B2;
+	width: 15%;
+	margin-right: 15px;
+}
+
+.mailbox__bottom>div:last-child{
+	width: 85%;
+}
+
+.mailbox__bottom>div:first-child>div{
+	cursor: pointer;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.mailbox__bottom>div:first-child>div:first-child{
+	background: #E5E5E5;
+}
+
+.mailbox__bottom>div:first-child>div:hover{
+	background: #E5E5E5;
+}
+
+.mailbox-delete>button{
+	padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+    border: 1px solid #AAAAAA;
+    color: black;
+}
+
+.mailbox__item>td{
+	text-align: center;
+}
+
+.mailbox__item>td:first-child{
+	display: flex;
+	text-align: left;
+}
+
+.mailbox__item>td:first-child>span{
+	margin-right: 5px;
+}
+
+#mailboxSend{
+	display: none;
+}
+
+.btn{
+	padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+    border: 1px solid #AAAAAA;
+    color: black;
+}
+
+.display-none{
+	display: none;
+}

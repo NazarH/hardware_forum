@@ -1,0 +1,49 @@
+.footer{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.statistic__header{
+	font-weight: bold;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 2px;
+}
+
+.statistic__block{
+	margin-top: 7px;
+	margin-bottom: 7px;
+	display: flex;
+}
+
+.statistic__block>div{
+	margin-right: 25px;
+}
+
+.statistic__block>div>span{
+	font-weight: bold;
+}
+
+.statistic__general{
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.statistic__general>div:last-child{
+	display: flex;
+}
+
+.statistic__general>div>div{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.statistic__logo{
+	color: black;
+	font-weight: bold;
+
+	font-size: 15px;
+	font-family: "ms_sans_serif", sans-serif;
+}

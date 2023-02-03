@@ -1,0 +1,18 @@
+.categories{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/* table */
+
+td>a{
+	display: block;
+	color: black;
+	text-decoration: underline;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+td>div{
+	font-size: 13px;
+}
